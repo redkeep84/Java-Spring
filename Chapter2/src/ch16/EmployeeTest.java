@@ -10,7 +10,7 @@ public class EmployeeTest {
 		// Employee.serialNum은 static 변수 이기 때문에 class 이름으로 참조해서 써야 함.
 //		System.out.println(employeeLee.serialNum);
 		// class 이름으로 참조해서 쓴 상태
-		System.out.println(Employee.serialNum);		
+		System.out.println(Employee.getSerialNum());		
 				
 		Employee employeeKim = new Employee();
 		employeeKim.setEmployeeName("김유신");
