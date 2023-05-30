@@ -4,8 +4,8 @@ public class TwoDimensionTest {
 
 	public static void main(String[] args) {
 		
-		int[][] arr = {{1,2,3}, {1,2,3,4}};
-//		int[][] arr = new int[3][4];
+//		int[][] arr = {{1,2,3}, {1,2,3,4}};
+		int[][] arr = new int[3][4];
 		
 		int i,j;
 		
