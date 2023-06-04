@@ -20,7 +20,11 @@ public class ClassTest {
 		System.out.println(p);
 		
 		
-		
+		/* TODO Exception in thread "main" java.lang.NoSuchMethodException: ch04.Person.<init>(java.lang.String)
+		at java.base/java.lang.Class.getConstructor0(Class.java:3585)
+		at java.base/java.lang.Class.getConstructor(Class.java:2271)
+		at ch04.ClassTest.main(ClassTest.java:23) 
+		에러 내용 확인 후 수정할것 	*/		
 		Class[] parameterTypes = {String.class};
 		Constructor cons = c2.getConstructor(parameterTypes);
 		
