@@ -33,11 +33,6 @@ public class FileCopyTest {
 		}
 		System.out.println(millisecond + " 소요되었습니다.");
 		
-		Socket socket = new Socket();
-		
-		BufferedReader br =  new BufferedReader( new InputStreamReader( socket.getInputStream())); // TODO surround with try/catch
-				
-			br.readLine();	// TODO surround with try/catch
 	}
 
 }
